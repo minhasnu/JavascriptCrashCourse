@@ -11,7 +11,7 @@ greetings();
 
 
 
-var strike1 =  " wants to be " + prompt('What is ur dream?');
+var strike1 =  " wants to be a " + prompt('What is ur dream?');
 document.getElementById('dream').innerHTML = strike1;
 
 var birthYear     = prompt('which year were you born?');
