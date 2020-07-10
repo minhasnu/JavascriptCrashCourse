@@ -30,10 +30,36 @@ function sumfunc(a,b){
     var sum  =  a + b ;
     console.log(sum);
 }
-var num1 = 0;
-while(num1<100){
-    num1+= 1;
-    console.log(num1);
-}
+// var num1 = 0;
+// while(num1<100){
+//     num1+= 1;
+//     console.log(num1);
+// }
 
 //For loop
+for (let num2 = 0; num2<= 100;num2++){
+    console.log(num2);
+}
+
+
+let yourAge = 18;
+let yourName = 'Bob';
+let name ={first:'test',last:'doe'};            //object
+let siblings =['minnu','mechu','muhsin'];       // array    
+let nothing = null;                             // value null
+console.log(name.first,name.last,siblings[2]);
+
+
+// Strings in java script
+let fruit = 'banana ';
+let moreFruits ='banana\napple';                //newline
+console.log(moreFruits);
+console.log(fruit.length);                      //string length
+console.log(fruit.indexOf('nan'));
+console.log(fruit.slice(2,6));
+console.log(fruit.replace('ban','123'));
+console.log(fruit.toLowerCase());
+console.log(fruit.toUpperCase());
+console.log(fruit[2]);
+console.log(fruit.split(''));
+
